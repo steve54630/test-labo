@@ -1,0 +1,1 @@
+{"version":3,"file":"sample.dto.d.ts","sourceRoot":"","sources":["../../src/dto/sample.dto.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,SAAS,GAAG;IACpB,EAAE,EAAG,MAAM,CAAA;IACX,IAAI,EAAE,MAAM,CAAA;IACZ,QAAQ,EAAG,MAAM,CAAA;IACjB,YAAY,EAAG,MAAM,CAAA;IACrB,WAAW,EAAG,MAAM,CAAA;IACpB,SAAS,EAAG,MAAM,GAAG,SAAS,CAAA;CACjC,CAAA"}

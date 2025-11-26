@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    // 🗂 Organisation des fichiers
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // 🌐 Module & Target
+    "module": "nodenext",
+    "target": "es2022",             // ESNext → trop permissif pour Node stable 
+    "esModuleInterop": true,        // pour importer modules CommonJS plus facilement
+
+    // 🔧 Types
+    "types": ["node", "jest"],       // reconnait Jest et Node
+    "lib": ["es2022"],               // API JS modernes
+    "allowJs": false,                // uniquement TS
+
+    // 📝 Sorties et maps
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // 🔒 Stricte vérification
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // 💻 Modules et import/export
+    "isolatedModules": true,
+    "resolveJsonModule": true,          // pour importer des JSON
+    "skipLibCheck": true,               // évite les erreurs dans node_modules
+    "forceConsistentCasingInFileNames": true
+  },
+
+  "include": ["src/**/*.ts", "src/**/*.tsx", "tests/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

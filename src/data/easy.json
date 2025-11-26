@@ -1,0 +1,33 @@
+{
+  "samples": [
+    { "id": "S001", "type": "BLOOD", "priority": "STAT", "analysisTime": 45, "arrivalTime": "08:30", "patientId": "P001" },
+    { "id": "S002", "type": "URINE", "priority": "URGENT", "analysisTime": 30, "arrivalTime": "08:35", "patientId": "P002" },
+    { "id": "S003", "type": "TISSUE", "priority": "ROUTINE", "analysisTime": 90, "arrivalTime": "08:40", "patientId": "P003" },
+    { "id": "S004", "type": "BLOOD", "priority": "ROUTINE", "analysisTime": 60, "arrivalTime": "09:00", "patientId": "P004" },
+    { "id": "S005", "type": "URINE", "priority": "STAT", "analysisTime": 25, "arrivalTime": "09:05", "patientId": "P005" },
+    { "id": "S006", "type": "TISSUE", "priority": "URGENT", "analysisTime": 120, "arrivalTime": "09:10", "patientId": "P006" },
+    { "id": "S007", "type": "BLOOD", "priority": "URGENT", "analysisTime": 50, "arrivalTime": "09:15", "patientId": "P007" },
+    { "id": "S008", "type": "URINE", "priority": "ROUTINE", "analysisTime": 35, "arrivalTime": "09:20", "patientId": "P008" },
+    { "id": "S009", "type": "BLOOD", "priority": "STAT", "analysisTime": 40, "arrivalTime": "09:25", "patientId": "P009" },
+    { "id": "S010", "type": "TISSUE", "priority": "ROUTINE", "analysisTime": 70, "arrivalTime": "09:30", "patientId": "P010" },
+    { "id": "S011", "type": "URINE", "priority": "URGENT", "analysisTime": 30, "arrivalTime": "09:35", "patientId": "P011" },
+    { "id": "S012", "type": "BLOOD", "priority": "ROUTINE", "analysisTime": 55, "arrivalTime": "09:40", "patientId": "P012" },
+    { "id": "S013", "type": "TISSUE", "priority": "STAT", "analysisTime": 80, "arrivalTime": "09:45", "patientId": "P013" },
+    { "id": "S014", "type": "URINE", "priority": "ROUTINE", "analysisTime": 35, "arrivalTime": "09:50", "patientId": "P014" },
+    { "id": "S015", "type": "BLOOD", "priority": "URGENT", "analysisTime": 50, "arrivalTime": "10:00", "patientId": "P015" }
+  ],
+  "technicians": [
+    { "id": "T001", "speciality": "BLOOD", "startTime": "08:00", "endTime": "17:00" },
+    { "id": "T002", "speciality": "URINE", "startTime": "08:00", "endTime": "17:00" },
+    { "id": "T003", "speciality": "TISSUE", "startTime": "08:00", "endTime": "17:00" },
+    { "id": "T004", "speciality": "GENERAL", "startTime": "08:00", "endTime": "17:00" }
+  ],
+  "equipment": [
+    { "id": "E001", "type": "BLOOD", "available": true },
+    { "id": "E002", "type": "URINE", "available": true },
+    { "id": "E003", "type": "TISSUE", "available": true },
+    { "id": "E004", "type": "BLOOD", "available": true },
+    { "id": "E005", "type": "URINE", "available": true },
+    { "id": "E006", "type": "TISSUE", "available": true }
+  ]
+}
